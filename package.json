@@ -1,0 +1,38 @@
+{
+  "name": "josi-state",
+  "description": "When your JoSi is aware of his current state, he can report on changes to that state in any way. This is the framework for handling all your JoSi's various states, and the processes you want implemented for each change.",
+  "version": "1.0.0",
+  "author": "Jolly Science",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jollyscience/josi-state.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/jollyscience/josi-state/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
